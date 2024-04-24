@@ -218,4 +218,5 @@ h1 {
 
 .hero h1 {
   font-size: clamp(3.5rem, 10vw + 1rem, 10rem);
+  width: clamp(200px, 50%, 800px);
 }

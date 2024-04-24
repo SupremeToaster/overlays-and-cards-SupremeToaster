@@ -156,6 +156,10 @@ aside {
   margin-bottom: 2rem;
 }
 
+aside {
+  margin: 20px;
+}
+
 footer {
   text-align: center;
   padding: 1px;
@@ -243,6 +247,8 @@ svg {
 .cards {
   display: flex;
   gap: 2px;
+  padding: 20px 40px;
+  margin: 20px;
 }
 
 .card a {

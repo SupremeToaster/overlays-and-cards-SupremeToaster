@@ -114,12 +114,24 @@ a {
   cursor: pointer;
 }
 
+ul {
+  margin: 20px auto;
+}
+
 nav ul a:hover {
   background: #15d798;
   border-radius: 10px;
   padding: 5px 10px;
   color: #ffffff;
   text-align: center;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  margin: 5px 0;
 }
 
 .button {
@@ -148,6 +160,9 @@ main {
   padding: 0 1rem;
   max-width: 50rem;
   line-height: 1.6em;
+}
+main p {
+  margin: 20px auto;
 }
 
 p,
@@ -196,7 +211,7 @@ footer {
 
 .hero-text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 10%;
   z-index: 2;
   color: white;
